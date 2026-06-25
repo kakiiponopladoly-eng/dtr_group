@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "foundation": "Fondation",
+    "services": "Services",
+    "sectors": "Secteurs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Un groupe. Une fondation. Des solutions.",
+    "subtitle": "DTR GROUP accompagne les entreprises, soutient les communautés et façonne l'avenir à travers des solutions multisectorielles.",
+    "cta_primary": "Découvrir nos services",
+    "cta_secondary": "Notre fondation"
+  },
+  "about": {
+    "title": "À propos de DTR GROUP",
+    "description": "DTR GROUP est à la fois une fondation humanitaire et un groupe professionnel multisectoriel. Notre mission est d'apporter des solutions concrètes et durables aux entreprises comme aux communautés.",
+    "values_title": "Nos valeurs",
+    "values": {
+      "excellence": { "title": "Excellence", "desc": "Nous visons les plus hauts standards dans chacun de nos services." },
+      "integrity": { "title": "Intégrité", "desc": "La transparence et l'éthique guident toutes nos actions." },
+      "impact": { "title": "Impact", "desc": "Nous mesurons notre succès à l'aune du changement positif généré." }
+    }
+  },
+  "foundation": {
+    "title": "La Fondation DTR",
+    "subtitle": "Agir pour les plus vulnérables",
+    "description": "La Fondation DTR vient en aide aux enfants démunis (0–8 ans) et aux personnes âgées (65 ans et plus) à travers l'alimentation, les soins médicaux et l'accompagnement quotidien.",
+    "children_title": "Enfants (0–8 ans)",
+    "children_desc": "Soutien alimentaire, accès aux soins médicaux et accompagnement éducatif pour les enfants des rues et démunis.",
+    "elderly_title": "Personnes âgées (65+)",
+    "elderly_desc": "Aide alimentaire, soins médicaux et accompagnement quotidien pour les aînés en situation de vulnérabilité.",
+    "donate": "Soutenir la fondation"
+  },
+  "services": {
+    "title": "Services de conseil",
+    "subtitle": "Expertise pluridisciplinaire à votre service",
+    "financial": { "title": "Conseil financier", "desc": "Cabinet de conseil en finance : analyse, stratégie et optimisation financière pour entreprises et particuliers." },
+    "legal": { "title": "Conseil juridique", "desc": "Avocats présents au Congo et en Inde. Assistance juridique internationale pour particuliers et entreprises." },
+    "business": { "title": "Business plans & Gestion", "desc": "Élaboration de business plans, aide au management et services de gestion opérationnelle." },
+    "hr": { "title": "Ressources humaines", "desc": "Gestion des ressources humaines : recrutement, formation, organisation et accompagnement RH." }
+  },
+  "sectors": {
+    "title": "Solutions sectorielles",
+    "subtitle": "Des expertises au cœur des industries stratégiques",
+    "pharmaceutical": {
+      "title": "Pharmaceutique",
+      "desc": "Vente en gros de produits pharmaceutiques puissants et efficaces."
+    },
+    "aviation": {
+      "title": "Aérien",
+      "desc": "Vente d'avions pour déplacements régionaux, affrètement et maintenance assurée par nos propres mécaniciens."
+    },
+    "maritime": {
+      "title": "Maritime",
+      "desc": "Construction et maintenance de bateaux, cartes de navigation et dragage."
+    },
+    "agriculture": {
+      "title": "Agriculture",
+      "desc": "Analyse et test des sols, plantation de semences et accompagnement agro-technique."
+    },
+    "industry": {
+      "title": "Industrie",
+      "desc": "Solutions industrielles adaptées aux besoins spécifiques de chaque secteur."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes à votre écoute",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "success": "Message envoyé avec succès. Nous vous répondrons dans les plus brefs délais."
+  },
+  "footer": {
+    "tagline": "Un groupe. Une fondation. Des solutions.",
+    "rights": "Tous droits réservés."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "foundation": "Foundation",
+    "services": "Services",
+    "sectors": "Sectors",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "One Group. One Foundation. Real Solutions.",
+    "subtitle": "DTR GROUP supports businesses, uplifts communities, and shapes the future through multi-sector solutions.",
+    "cta_primary": "Explore our services",
+    "cta_secondary": "Our foundation"
+  },
+  "about": {
+    "title": "About DTR GROUP",
+    "description": "DTR GROUP is both a humanitarian foundation and a multi-sector professional group. Our mission is to provide concrete, lasting solutions to businesses and communities alike.",
+    "values_title": "Our values",
+    "values": {
+      "excellence": { "title": "Excellence", "desc": "We aim for the highest standards in each of our services." },
+      "integrity": { "title": "Integrity", "desc": "Transparency and ethics guide all our actions." },
+      "impact": { "title": "Impact", "desc": "We measure our success by the positive change we generate." }
+    }
+  },
+  "foundation": {
+    "title": "The DTR Foundation",
+    "subtitle": "Acting for the most vulnerable",
+    "description": "The DTR Foundation supports underprivileged children (ages 0–8) and elderly people (65+) through food aid, medical care and daily support.",
+    "children_title": "Children (0–8)",
+    "children_desc": "Food support, access to medical care and educational guidance for street children and those in need.",
+    "elderly_title": "Elderly (65+)",
+    "elderly_desc": "Food assistance, medical care and daily support for seniors in vulnerable situations.",
+    "donate": "Support the foundation"
+  },
+  "services": {
+    "title": "Advisory Services",
+    "subtitle": "Multidisciplinary expertise at your service",
+    "financial": { "title": "Financial Advisory", "desc": "Financial consulting: analysis, strategy and financial optimization for businesses and individuals." },
+    "legal": { "title": "Legal Advisory", "desc": "Lawyers in Congo and India. International legal assistance for individuals and businesses." },
+    "business": { "title": "Business Plans & Management", "desc": "Business plan development, management support and operational management services." },
+    "hr": { "title": "Human Resources", "desc": "HR management: recruitment, training, organization and HR support." }
+  },
+  "sectors": {
+    "title": "Sectorial Solutions",
+    "subtitle": "Expertise at the heart of strategic industries",
+    "pharmaceutical": {
+      "title": "Pharmaceutical",
+      "desc": "Wholesale sales of powerful and effective pharmaceutical products."
+    },
+    "aviation": {
+      "title": "Aviation",
+      "desc": "Aircraft sales for regional travel, charter services and maintenance by our own mechanics."
+    },
+    "maritime": {
+      "title": "Maritime",
+      "desc": "Boat construction and maintenance, navigation charts and dredging."
+    },
+    "agriculture": {
+      "title": "Agriculture",
+      "desc": "Soil analysis and testing, seed planting and agro-technical support."
+    },
+    "industry": {
+      "title": "Industry",
+      "desc": "Industrial solutions tailored to the specific needs of each sector."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to listen",
+    "name": "Full name",
+    "email": "Email address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "success": "Message sent successfully. We will get back to you as soon as possible."
+  },
+  "footer": {
+    "tagline": "One Group. One Foundation. Real Solutions.",
+    "rights": "All rights reserved."
+  }
+}
