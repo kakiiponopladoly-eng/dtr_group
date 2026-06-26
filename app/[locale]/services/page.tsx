@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { TrendingUp, Scale, FileText, Users } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -7,8 +7,14 @@ export const metadata: Metadata = { title: "Services" };
 const icons = [TrendingUp, Scale, FileText, Users];
 const serviceKeys = ["financial", "legal", "business", "hr"] as const;
 
-export default function ServicesPage() {
-  const t = useTranslations("services");
+export default async function ServicesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "services" });
 
   return (
     <div>

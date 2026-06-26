@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Pill, Plane, Ship, Wheat, Factory } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -12,8 +12,14 @@ const sectors = [
   { key: "industry",       Icon: Factory },
 ] as const;
 
-export default function SectorsPage() {
-  const t = useTranslations("sectors");
+export default async function SectorsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "sectors" });
 
   return (
     <div>

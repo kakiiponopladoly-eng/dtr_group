@@ -1,13 +1,18 @@
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { Baby, UserCheck, Apple, Stethoscope, HandHeart } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "Fondation / Foundation" };
 
-export default function FoundationPage() {
-  const t = useTranslations("foundation");
-  const locale = useLocale();
+export default async function FoundationPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "foundation" });
 
   const pillars = [
     { Icon: Apple,       label: locale === "fr" ? "Alimentation"  : "Food aid" },

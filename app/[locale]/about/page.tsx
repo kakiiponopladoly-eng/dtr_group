@@ -1,10 +1,17 @@
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "À propos / About" };
 
-export default function AboutPage() {
-  const t = useTranslations("about");
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "about" });
+
   const values = ["excellence", "integrity", "impact"] as const;
 
   return (

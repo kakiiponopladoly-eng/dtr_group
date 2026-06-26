@@ -138,7 +138,7 @@ export default function Header() {
                     : "text-gray-700 hover:text-orange-500 hover:bg-orange-50"
                 }`}
               >
-                {t(key as keyof ReturnType<typeof t>)}
+                {t(key)}
               </Link>
             );
           })}

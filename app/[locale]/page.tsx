@@ -1,12 +1,17 @@
-import { useTranslations } from "next-intl";
-import Link from "next/link";
-import { useLocale } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 import HeroSection from "@/components/sections/HeroSection";
 import FoundationPreview from "@/components/sections/FoundationPreview";
 import ServicesPreview from "@/components/sections/ServicesPreview";
 import SectorsPreview from "@/components/sections/SectorsPreview";
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <>
       <HeroSection />
