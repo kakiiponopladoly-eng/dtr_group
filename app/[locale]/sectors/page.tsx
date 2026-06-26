@@ -1,5 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Pill, Plane, Ship, Wheat, Factory } from "lucide-react";
+import { Pill, Plane, Ship, Wheat, Factory, HardHat, Truck } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "Secteurs / Sectors" };
@@ -10,6 +10,8 @@ const sectors = [
   { key: "maritime",       Icon: Ship },
   { key: "agriculture",    Icon: Wheat },
   { key: "industry",       Icon: Factory },
+  { key: "construction",   Icon: HardHat },
+  { key: "transportation", Icon: Truck },
 ] as const;
 
 export default async function SectorsPage({

@@ -1,6 +1,6 @@
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { Pill, Plane, Ship, Wheat, Factory, ArrowRight } from "lucide-react";
+import { Pill, Plane, Ship, Wheat, Factory, HardHat, Truck, ArrowRight } from "lucide-react";
 
 const sectors = [
   { key: "pharmaceutical", Icon: Pill },
@@ -8,6 +8,8 @@ const sectors = [
   { key: "maritime",       Icon: Ship },
   { key: "agriculture",    Icon: Wheat },
   { key: "industry",       Icon: Factory },
+  { key: "construction",   Icon: HardHat },
+  { key: "transportation", Icon: Truck },
 ] as const;
 
 export default function SectorsPreview() {

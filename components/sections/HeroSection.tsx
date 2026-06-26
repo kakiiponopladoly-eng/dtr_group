@@ -75,7 +75,7 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-7">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { num: "5", label: locale === "fr" ? "Secteurs d'activité" : "Business sectors" },
+              { num: "7", label: locale === "fr" ? "Secteurs d'activité" : "Business sectors" },
               { num: "4", label: locale === "fr" ? "Services de conseil" : "Advisory services" },
               { num: "2", label: locale === "fr" ? "Pays · Congo & Inde" : "Countries · Congo & India" },
               { num: "2", label: locale === "fr" ? "Publics soutenus" : "Communities served" },

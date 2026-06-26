@@ -63,6 +63,14 @@
     "industry": {
       "title": "Industry",
       "desc": "Industrial solutions tailored to the specific needs of each sector."
+    },
+    "construction": {
+      "title": "Construction",
+      "desc": "Construction project management, site supervision and supply of quality materials."
+    },
+    "transportation": {
+      "title": "Transportation",
+      "desc": "Logistics and transport solutions for goods and people at local and international scale."
     }
   },
   "contact": {

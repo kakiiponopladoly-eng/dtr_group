@@ -63,6 +63,14 @@
     "industry": {
       "title": "Industrie",
       "desc": "Solutions industrielles adaptées aux besoins spécifiques de chaque secteur."
+    },
+    "construction": {
+      "title": "Construction",
+      "desc": "Gestion de projets de construction, supervision de chantiers et fourniture de matériaux de qualité."
+    },
+    "transportation": {
+      "title": "Transport",
+      "desc": "Solutions logistiques et transport de marchandises et de personnes à l'échelle locale et internationale."
     }
   },
   "contact": {
