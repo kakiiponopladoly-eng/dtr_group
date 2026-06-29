@@ -57,11 +57,11 @@ export default function Header() {
             {/* Logo — agrandi */}
             <Link href={`/${locale}`} className="flex items-center flex-shrink-0">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.png"
                 alt="DTR GROUP"
                 width={180}
                 height={64}
-                className="object-contain"
+                className="object-contain mix-blend-multiply"
                 priority
               />
             </Link>
@@ -140,11 +140,11 @@ export default function Header() {
         {/* En-tête du drawer */}
         <div className="flex items-center justify-between px-5 border-b border-gray-100" style={{ height: "5.5rem" }}>
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.png"
             alt="DTR GROUP"
             width={150}
             height={54}
-            className="object-contain"
+            className="object-contain mix-blend-multiply"
           />
           <button
             onClick={() => setOpen(false)}

@@ -60,11 +60,11 @@ export default function Footer() {
             <Link href={`/${locale}`} className="inline-flex items-center gap-3 mb-5">
               <div className="bg-white rounded-md p-1">
                 <Image
-                  src="/images/logo.jpg"
+                  src="/images/logo.png"
                   alt="DTR GROUP"
                   width={48}
                   height={48}
-                  className="object-contain"
+                  className="object-contain mix-blend-multiply"
                 />
               </div>
               <div>

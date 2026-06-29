@@ -57,11 +57,11 @@ export default function HeroSection() {
               <div className="absolute -inset-8 bg-brand-500/10 rounded-full blur-3xl" />
               <div className="relative bg-white rounded-2xl p-6 shadow-2xl shadow-black/50">
                 <Image
-                  src="/images/logo.jpg"
+                  src="/images/logo.png"
                   alt="DTR GROUP"
                   width={320}
                   height={320}
-                  className="object-contain"
+                  className="object-contain mix-blend-multiply"
                   priority
                 />
               </div>
