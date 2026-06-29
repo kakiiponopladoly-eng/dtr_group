@@ -16,7 +16,7 @@ export default function HeroSection() {
 
           {/* LEFT — Text */}
           <div>
-            <p className="label-tag text-orange-500 mb-7">
+            <p className="label-tag text-brand-500 mb-7">
               DTR GROUP
             </p>
 
@@ -25,7 +25,7 @@ export default function HeroSection() {
               style={{ fontSize: "clamp(2.8rem, 5.5vw, 5.2rem)" }}
             >
               <span className="block">UN GROUPE.</span>
-              <span className="block text-orange-500">UNE FONDATION.</span>
+              <span className="block text-brand-500">UNE FONDATION.</span>
               <span className="block">DES SOLUTIONS.</span>
             </h1>
 
@@ -39,14 +39,14 @@ export default function HeroSection() {
               </Link>
               <Link
                 href={`/${locale}/foundation`}
-                className="btn-ghost text-white border-white/20 hover:border-orange-400 hover:text-orange-400"
+                className="btn-ghost text-white border-white/20 hover:border-brand-400 hover:text-brand-400"
               >
-                <Heart className="w-4 h-4 text-orange-400" />
+                <Heart className="w-4 h-4 text-brand-400" />
                 {t("cta_secondary")}
               </Link>
             </div>
 
-            <p className="mt-12 text-xs font-display font-bold tracking-[0.3em] uppercase text-orange-500/50">
+            <p className="mt-12 text-xs font-display font-bold tracking-[0.3em] uppercase text-brand-500/50">
               Votre énergie, notre engagement
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function HeroSection() {
           {/* RIGHT — Logo */}
           <div className="hidden lg:flex justify-end items-center">
             <div className="relative">
-              <div className="absolute -inset-8 bg-orange-500/10 rounded-full blur-3xl" />
+              <div className="absolute -inset-8 bg-brand-500/10 rounded-full blur-3xl" />
               <div className="relative bg-white rounded-2xl p-6 shadow-2xl shadow-black/50">
                 <Image
                   src="/images/logo.jpg"
@@ -81,7 +81,7 @@ export default function HeroSection() {
               { num: "2", label: locale === "fr" ? "Publics soutenus" : "Communities served" },
             ].map(({ num, label }) => (
               <div key={label} className="flex items-start gap-3">
-                <span className="font-display font-black text-orange-500 text-3xl leading-none">
+                <span className="font-display font-black text-brand-500 text-3xl leading-none">
                   {num}+
                 </span>
                 <span className="text-navy-100/40 text-xs leading-snug pt-1 font-body">

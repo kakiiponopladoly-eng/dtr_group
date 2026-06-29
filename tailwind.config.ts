@@ -17,11 +17,28 @@ const config: Config = {
           100: "#d4dbe8",
           50:  "#eef1f7",
         },
-        orange: {
-          400: "#fb923c",
-          500: "#f97316",
-          600: "#ea6c0a",
-          700: "#c2570d",
+        // Primary accent — blue from the DTR logo globe
+        brand: {
+          50:  "#eef6fd",
+          100: "#d7eafa",
+          200: "#aacef5",
+          300: "#72aedf",
+          400: "#4aaed4",
+          500: "#2275b8",
+          600: "#1a5c9a",
+          700: "#144a82",
+          800: "#0f3868",
+        },
+        // Secondary accent — green from the DTR logo globe
+        green: {
+          50:  "#eef5e8",
+          100: "#d3e8c4",
+          200: "#a8d28a",
+          300: "#7aad4a",
+          400: "#6b9e3e",
+          500: "#5d8a3c",
+          600: "#4a7030",
+          700: "#3a5a24",
         },
         cream: {
           50:  "#faf9f6",

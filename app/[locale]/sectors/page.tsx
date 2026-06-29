@@ -27,7 +27,7 @@ export default async function SectorsPage({
     <div>
       <section className="bg-navy-900 py-24 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <p className="label-tag text-orange-500 mb-6">{t("title")}</p>
+          <p className="label-tag text-brand-500 mb-6">{t("title")}</p>
           <h1
             className="font-display font-black text-white leading-tight"
             style={{ fontSize: "clamp(2.2rem, 4.5vw, 3.5rem)" }}
@@ -49,14 +49,14 @@ export default async function SectorsPage({
                             border-b border-gray-100`}
               >
                 <div className="flex items-start justify-between mb-8">
-                  <div className="w-10 h-10 border border-gray-200 flex items-center justify-center group-hover:border-orange-200 group-hover:bg-orange-50 transition-colors">
-                    <Icon className="w-5 h-5 text-gray-400 group-hover:text-orange-500 transition-colors" />
+                  <div className="w-10 h-10 border border-gray-200 flex items-center justify-center group-hover:border-brand-200 group-hover:bg-brand-50 transition-colors">
+                    <Icon className="w-5 h-5 text-gray-400 group-hover:text-brand-500 transition-colors" />
                   </div>
-                  <span className="font-display font-black text-gray-100 text-4xl group-hover:text-orange-100 transition-colors select-none">
+                  <span className="font-display font-black text-gray-100 text-4xl group-hover:text-brand-100 transition-colors select-none">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                 </div>
-                <h2 className="font-display font-bold text-navy-900 text-xl mb-2 group-hover:text-orange-600 transition-colors">
+                <h2 className="font-display font-bold text-navy-900 text-xl mb-2 group-hover:text-brand-600 transition-colors">
                   {t(`${key}.title`)}
                 </h2>
                 <p className="text-gray-500 text-sm leading-relaxed">{t(`${key}.desc`)}</p>

@@ -19,7 +19,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-navy-900 py-24 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <p className="label-tag text-orange-500 mb-6">{t("title")}</p>
+          <p className="label-tag text-brand-500 mb-6">{t("title")}</p>
           <h1
             className="font-display font-black text-white leading-tight"
             style={{ fontSize: "clamp(2.2rem, 4.5vw, 3.5rem)" }}
@@ -41,7 +41,7 @@ export default function ContactPage() {
                   {locale === "fr" ? "Localisation" : "Location"}
                 </p>
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-4 h-4 text-orange-500 flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-4 h-4 text-brand-500 flex-shrink-0 mt-0.5" />
                   <span className="text-sm text-gray-600 font-body">Congo · Inde</span>
                 </div>
               </div>
@@ -50,10 +50,10 @@ export default function ContactPage() {
                   Email
                 </p>
                 <div className="flex items-start gap-3">
-                  <Mail className="w-4 h-4 text-orange-500 flex-shrink-0 mt-0.5" />
+                  <Mail className="w-4 h-4 text-brand-500 flex-shrink-0 mt-0.5" />
                   <a
                     href="mailto:contact@dtrgroup.com"
-                    className="text-sm text-navy-700 hover:text-orange-500 transition-colors font-body"
+                    className="text-sm text-navy-700 hover:text-brand-500 transition-colors font-body"
                   >
                     contact@dtrgroup.com
                   </a>
@@ -81,7 +81,7 @@ export default function ContactPage() {
                         type="text"
                         required
                         className="w-full px-4 py-3 border border-gray-200 font-body text-sm
-                                   focus:outline-none focus:border-orange-400 focus:ring-1 focus:ring-orange-400
+                                   focus:outline-none focus:border-brand-400 focus:ring-1 focus:ring-brand-400
                                    transition-colors placeholder:text-gray-300"
                       />
                     </div>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                         type="email"
                         required
                         className="w-full px-4 py-3 border border-gray-200 font-body text-sm
-                                   focus:outline-none focus:border-orange-400 focus:ring-1 focus:ring-orange-400
+                                   focus:outline-none focus:border-brand-400 focus:ring-1 focus:ring-brand-400
                                    transition-colors placeholder:text-gray-300"
                       />
                     </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                       type="text"
                       required
                       className="w-full px-4 py-3 border border-gray-200 font-body text-sm
-                                 focus:outline-none focus:border-orange-400 focus:ring-1 focus:ring-orange-400
+                                 focus:outline-none focus:border-brand-400 focus:ring-1 focus:ring-brand-400
                                  transition-colors placeholder:text-gray-300"
                     />
                   </div>
@@ -120,7 +120,7 @@ export default function ContactPage() {
                       rows={6}
                       required
                       className="w-full px-4 py-3 border border-gray-200 font-body text-sm
-                                 focus:outline-none focus:border-orange-400 focus:ring-1 focus:ring-orange-400
+                                 focus:outline-none focus:border-brand-400 focus:ring-1 focus:ring-brand-400
                                  transition-colors placeholder:text-gray-300 resize-none"
                     />
                   </div>

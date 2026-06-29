@@ -35,8 +35,8 @@ export default function Footer() {
   return (
     <footer className="bg-navy-950 text-white">
 
-      {/* Top strip — orange */}
-      <div className="bg-orange-500 px-6 lg:px-8 py-4">
+      {/* Top strip — brand */}
+      <div className="bg-brand-500 px-6 lg:px-8 py-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
           <p className="font-display font-semibold text-sm tracking-wide">
             {locale === "fr" ? "Votre énergie, notre engagement." : "Your energy, our commitment."}
@@ -69,7 +69,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-display font-bold text-base">DTR GROUP</div>
-                <div className="text-2xs text-orange-400 font-display font-semibold tracking-widest uppercase mt-0.5">
+                <div className="text-2xs text-brand-400 font-display font-semibold tracking-widest uppercase mt-0.5">
                   Congo · Inde
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
             {cols.map(({ heading, links }) => (
               <div key={heading}>
-                <h4 className="text-2xs font-display font-semibold tracking-[0.2em] uppercase text-orange-500 mb-5">
+                <h4 className="text-2xs font-display font-semibold tracking-[0.2em] uppercase text-brand-500 mb-5">
                   {heading}
                 </h4>
                 <ul className="space-y-3">
@@ -114,7 +114,7 @@ export default function Footer() {
                 key={loc}
                 href={`/${loc}`}
                 className={`text-xs font-display font-semibold uppercase tracking-widest transition-colors ${
-                  loc === locale ? "text-orange-500" : "text-navy-100/30 hover:text-white"
+                  loc === locale ? "text-brand-500" : "text-navy-100/30 hover:text-white"
                 }`}
               >
                 {loc}

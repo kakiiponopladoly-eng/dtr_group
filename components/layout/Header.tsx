@@ -62,7 +62,7 @@ export default function Header() {
               <div className="font-display font-bold text-navy-900 text-sm tracking-widest uppercase leading-tight">
                 DTR GROUP
               </div>
-              <div className="text-orange-500 text-[0.55rem] font-display font-semibold tracking-[0.25em] uppercase">
+              <div className="text-brand-500 text-[0.55rem] font-display font-semibold tracking-[0.25em] uppercase">
                 Congo · Inde
               </div>
             </div>
@@ -78,13 +78,13 @@ export default function Header() {
                   href={`/${locale}${href}`}
                   className={`relative px-4 py-2 text-sm font-display font-medium rounded-sm transition-colors duration-200 ${
                     active
-                      ? "text-orange-500 bg-orange-50"
+                      ? "text-brand-500 bg-brand-50"
                       : "text-gray-600 hover:text-navy-900 hover:bg-gray-50"
                   }`}
                 >
                   {t(key)}
                   {active && (
-                    <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-orange-500 rounded-full" />
+                    <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-brand-500 rounded-full" />
                   )}
                 </Link>
               );
@@ -96,8 +96,8 @@ export default function Header() {
             <Link
               href={`/${other}`}
               className="text-xs font-display font-bold tracking-widest uppercase text-gray-400
-                         hover:text-orange-500 border border-gray-200 rounded px-2.5 py-1.5
-                         hover:border-orange-300 transition-all duration-200"
+                         hover:text-brand-500 border border-gray-200 rounded px-2.5 py-1.5
+                         hover:border-brand-300 transition-all duration-200"
             >
               {other}
             </Link>
@@ -106,7 +106,7 @@ export default function Header() {
               href={`/${locale}/contact`}
               className="hidden md:inline-flex items-center px-5 py-2.5 bg-navy-900 text-white
                          text-xs font-display font-bold tracking-widest uppercase rounded-sm
-                         hover:bg-orange-500 transition-colors duration-200"
+                         hover:bg-brand-500 transition-colors duration-200"
             >
               {locale === "fr" ? "Nous contacter" : "Contact us"}
             </Link>
@@ -134,8 +134,8 @@ export default function Header() {
                 onClick={() => setOpen(false)}
                 className={`flex items-center px-6 py-4 text-sm font-display font-medium border-b border-gray-50 transition-colors ${
                   active
-                    ? "text-orange-500 bg-orange-50 border-l-2 border-l-orange-500"
-                    : "text-gray-700 hover:text-orange-500 hover:bg-orange-50"
+                    ? "text-brand-500 bg-brand-50 border-l-2 border-l-brand-500"
+                    : "text-gray-700 hover:text-brand-500 hover:bg-brand-50"
                 }`}
               >
                 {t(key)}

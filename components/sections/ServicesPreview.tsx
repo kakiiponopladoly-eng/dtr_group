@@ -16,7 +16,7 @@ export default function ServicesPreview() {
         {/* Header row — left text + right label */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 items-end mb-16 pb-8 border-b border-gray-100">
           <div>
-            <p className="label-tag text-orange-500 mb-4">{t("title")}</p>
+            <p className="label-tag text-brand-500 mb-4">{t("title")}</p>
             <h2
               className="font-display font-black text-navy-900 leading-tight"
               style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.75rem)" }}
@@ -26,7 +26,7 @@ export default function ServicesPreview() {
           </div>
           <Link
             href={`/${locale}/services`}
-            className="hidden lg:inline-flex items-center gap-2 text-sm font-display font-semibold text-orange-500 hover:text-orange-600 transition-colors flex-shrink-0"
+            className="hidden lg:inline-flex items-center gap-2 text-sm font-display font-semibold text-brand-500 hover:text-brand-600 transition-colors flex-shrink-0"
           >
             {locale === "fr" ? "Voir tout" : "View all"} <ArrowRight className="w-4 h-4" />
           </Link>
@@ -44,14 +44,14 @@ export default function ServicesPreview() {
               >
                 {/* Number */}
                 <span className="font-display font-black text-2xl text-gray-150 leading-none pt-0.5
-                                 group-hover:text-orange-200 transition-colors">
+                                 group-hover:text-brand-200 transition-colors">
                   {String(i + 1).padStart(2, "0")}
                 </span>
 
                 {/* Content */}
                 <div>
                   <h3 className="font-display font-bold text-navy-900 text-lg mb-1
-                                 group-hover:text-orange-600 transition-colors">
+                                 group-hover:text-brand-600 transition-colors">
                     {t(`${key}.title`)}
                   </h3>
                   <p className="text-gray-500 text-sm leading-relaxed">{t(`${key}.desc`)}</p>
@@ -59,7 +59,7 @@ export default function ServicesPreview() {
 
                 {/* Icon */}
                 <div className="self-start pt-1">
-                  <Icon className="w-5 h-5 text-gray-250 group-hover:text-orange-400 transition-colors" />
+                  <Icon className="w-5 h-5 text-gray-250 group-hover:text-brand-400 transition-colors" />
                 </div>
               </div>
             );

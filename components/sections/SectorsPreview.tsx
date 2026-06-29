@@ -23,7 +23,7 @@ export default function SectorsPreview() {
         {/* Header row */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-16">
           <div>
-            <p className="label-tag text-orange-500 mb-4">{t("title")}</p>
+            <p className="label-tag text-brand-500 mb-4">{t("title")}</p>
             <h2
               className="font-display font-black text-white leading-tight"
               style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.75rem)" }}
@@ -34,7 +34,7 @@ export default function SectorsPreview() {
           <Link
             href={`/${locale}/sectors`}
             className="hidden sm:inline-flex items-center gap-2 text-sm font-display font-semibold
-                       text-orange-400 hover:text-orange-300 transition-colors flex-shrink-0"
+                       text-brand-400 hover:text-brand-300 transition-colors flex-shrink-0"
           >
             {locale === "fr" ? "Explorer" : "Explore"} <ArrowRight className="w-4 h-4" />
           </Link>
@@ -56,17 +56,17 @@ export default function SectorsPreview() {
               {/* Top row: icon + sector number */}
               <div className="flex items-start justify-between mb-6">
                 <div className="w-10 h-10 border border-white/10 flex items-center justify-center
-                                group-hover:border-orange-500/40 group-hover:bg-orange-500/5 transition-colors">
-                  <Icon className="w-5 h-5 text-orange-400" />
+                                group-hover:border-brand-500/40 group-hover:bg-brand-500/5 transition-colors">
+                  <Icon className="w-5 h-5 text-brand-400" />
                 </div>
                 <span className="font-display font-black text-white/8 text-4xl leading-none select-none
-                                 group-hover:text-orange-500/15 transition-colors">
+                                 group-hover:text-brand-500/15 transition-colors">
                   {String(i + 1).padStart(2, "0")}
                 </span>
               </div>
 
               <h3 className="font-display font-bold text-white text-lg mb-2
-                             group-hover:text-orange-400 transition-colors">
+                             group-hover:text-brand-400 transition-colors">
                 {t(`${key}.title`)}
               </h3>
               <p className="text-white/40 text-sm leading-relaxed">{t(`${key}.desc`)}</p>
